@@ -1,73 +1,59 @@
-# Welcome to your Lovable project
+# E-Learning Platform 🎓
 
-## Project info
+A modern and responsive e-learning platform built with **React** and **TypeScript**, styled using **Tailwind CSS**. The project follows a modular component-based architecture and utilizes **shadcn/ui** for reusable and accessible UI components.
 
-**URL**: https://lovable.dev/projects/5a4b92d4-fd99-47d4-95db-c45b7a522d25
+## ✨ Key Features
 
-## How can I edit this code?
+- ⚛️ **React + TypeScript**: Ensures performance and type safety.
+- 🎨 **Tailwind CSS**: Rapid and responsive UI development.
+- 🧩 **shadcn/ui components**: Clean and reusable design elements.
+- 🧱 **Shared Layout**: Includes a consistent Header and Footer across all pages.
 
-There are several ways of editing your application.
+## 📄 Pages Overview
 
-**Use Lovable**
+### 1. Home Page
+Showcases an overview of the platform including:
+- Featured Courses
+- Course Categories
+- Certificate Highlights
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/5a4b92d4-fd99-47d4-95db-c45b7a522d25) and start prompting.
+### 2. Courses Page
+Displays all available courses with:
+- Advanced Search
+- Filters by category, level, etc.
 
-Changes made via Lovable will be committed automatically to this repo.
+### 3. Categories Page
+Lists various course categories such as:
+- Programming
+- Design
+- Self-Development
 
-**Use your preferred IDE**
+### 4. Instructors Page
+Presents instructors with:
+- Names and bios
+- Areas of expertise
+- Ratings and feedback
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+### 5. Pricing Page
+Outlines available subscription plans:
+- Free Plan
+- Monthly Plan
+- Annual Plan
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+### 6. Authentication Pages
+- **Login Page**
+- **Signup Page**: Includes a registration form with real-time password strength validation.
 
-Follow these steps:
+## 🛠️ Tech Stack
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+- **React** + **TypeScript**
+- **Tailwind CSS**
+- **ShadCN UI**
+- **Vite** (for fast development and bundling)
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+## 🚀 Project Status
 
-# Step 3: Install the necessary dependencies.
-npm i
+> This project is under active development. Upcoming features include an admin dashboard, payment integration, and a content management system (CMS).
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
 
-**Edit a file directly in GitHub**
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/5a4b92d4-fd99-47d4-95db-c45b7a522d25) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)

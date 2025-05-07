@@ -18,7 +18,7 @@ const testimonials: Testimonial[] = [
     id: 1,
     name: "Sarah Johnson",
     role: "Web Developer",
-    avatar: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=256&q=80",
+    avatar: "https://i.postimg.cc/XvRkJFnW/3cae079ca0b9e55ec6bfc1b358c9b1e2.jpg",
     quote: "LearnSphere completely transformed my career. The structured curriculum and expert instructors helped me master web development in just 3 months. I've now landed my dream job at a tech startup!",
     course: "Full-Stack Web Development Bootcamp"
   },
@@ -26,7 +26,7 @@ const testimonials: Testimonial[] = [
     id: 2,
     name: "Michael Chen",
     role: "Marketing Director",
-    avatar: "https://images.unsplash.com/photo-1599566150163-29194dcaad36?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=256&q=80",
+    avatar: "https://i.postimg.cc/XvRkJFnW/3cae079ca0b9e55ec6bfc1b358c9b1e2.jpg",
     quote: "As someone with a busy schedule, LearnSphere's flexible learning model allowed me to advance my marketing skills while working full-time. The content was practical, current, and immediately applicable to my job.",
     course: "Digital Marketing Mastery"
   },
@@ -34,7 +34,7 @@ const testimonials: Testimonial[] = [
     id: 3,
     name: "Emily Rodriguez",
     role: "UX Designer",
-    avatar: "https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=256&q=80",
+    avatar: "https://i.postimg.cc/XvRkJFnW/3cae079ca0b9e55ec6bfc1b358c9b1e2.jpg",
     quote: "The UX Design course on LearnSphere was exactly what I needed. The instructor provided invaluable feedback on my projects, and the community was incredibly supportive. I've grown so much as a designer.",
     course: "UX Design Fundamentals"
   }

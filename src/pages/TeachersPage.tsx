@@ -25,7 +25,7 @@ const teachersData = [
     rating: 4.9,
     students: 15420,
     courses: 12,
-    image: "https://randomuser.me/api/portraits/women/2.jpg",
+    image: "https://i.postimg.cc/XvRkJFnW/3cae079ca0b9e55ec6bfc1b358c9b1e2.jpg",
     expertise: ["JavaScript", "React", "Node.js"],
     featured: true
   },
@@ -37,7 +37,7 @@ const teachersData = [
     rating: 4.8,
     students: 8750,
     courses: 8,
-    image: "https://randomuser.me/api/portraits/men/1.jpg",
+    image: "https://i.postimg.cc/XvRkJFnW/3cae079ca0b9e55ec6bfc1b358c9b1e2.jpg",
     expertise: ["Marketing", "Business Strategy", "Entrepreneurship"],
     featured: true
   },
@@ -49,7 +49,7 @@ const teachersData = [
     rating: 4.9,
     students: 12300,
     courses: 10,
-    image: "https://randomuser.me/api/portraits/women/10.jpg",
+    image: "https://i.postimg.cc/XvRkJFnW/3cae079ca0b9e55ec6bfc1b358c9b1e2.jpg",
     expertise: ["UX Design", "UI Design", "Adobe Creative Suite"],
     featured: true
   },
@@ -61,7 +61,7 @@ const teachersData = [
     rating: 4.7,
     students: 9800,
     courses: 6,
-    image: "https://randomuser.me/api/portraits/men/20.jpg",
+    image: "https://i.postimg.cc/XvRkJFnW/3cae079ca0b9e55ec6bfc1b358c9b1e2.jpg",
     expertise: ["Python", "Machine Learning", "Data Analysis"],
     featured: false
   },
@@ -73,7 +73,7 @@ const teachersData = [
     rating: 4.8,
     students: 7500,
     courses: 9,
-    image: "https://randomuser.me/api/portraits/women/15.jpg",
+    image: "https://i.postimg.cc/XvRkJFnW/3cae079ca0b9e55ec6bfc1b358c9b1e2.jpg",
     expertise: ["Spanish", "Korean", "Language Pedagogy"],
     featured: false
   },
@@ -85,7 +85,7 @@ const teachersData = [
     rating: 4.9,
     students: 5600,
     courses: 7,
-    image: "https://randomuser.me/api/portraits/men/32.jpg",
+    image: "https://i.postimg.cc/XvRkJFnW/3cae079ca0b9e55ec6bfc1b358c9b1e2.jpg",
     expertise: ["Digital Photography", "Lighting", "Photo Editing"],
     featured: true
   }
