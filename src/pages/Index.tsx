@@ -15,9 +15,19 @@ const Index = () => {
   return (
     <Layout>
       <HeroSection />
-      <CategorySection />
+      <div className="bg-gradient-to-b from-brand-50/50 to-background">
+        <CategorySection />
+      </div>
       <div className="container section-padding">
-        <CourseList courses={featuredCourses} title="Featured Courses" />
+        <h2 className="text-3xl md:text-4xl font-bold mb-8 text-center">
+          <span className="bg-gradient-to-r from-brand-600 to-blue-600 bg-clip-text text-transparent">
+            Featured Courses
+          </span>
+        </h2>
+        <p className="text-muted-foreground text-center max-w-2xl mx-auto mb-10">
+          Explore our handpicked selection of top-rated courses taught by industry experts to help you master new skills and advance your career.
+        </p>
+        <CourseList courses={featuredCourses} />
       </div>
       <FeaturesSection />
       <TestimonialSection />

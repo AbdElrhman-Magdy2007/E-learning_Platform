@@ -108,6 +108,51 @@
   .text-balance {
     text-wrap: balance;
   }
+
+  /* Animation utilities */
+  .hover-scale {
+    @apply transition-transform duration-300 hover:scale-105;
+  }
+
+  .hover-lift {
+    @apply transition-all duration-300 hover:translate-y-[-5px] hover:shadow-lg;
+  }
+
+  .hover-glow {
+    @apply transition-all duration-300 hover:shadow-[0_0_15px_rgba(139,92,246,0.5)];
+  }
+
+  .pulse-animation {
+    @apply animate-[pulse_2s_cubic-bezier(0.4,0,0.6,1)_infinite];
+  }
+
+  .gradient-text {
+    @apply bg-gradient-to-r from-brand-600 to-blue-600 bg-clip-text text-transparent;
+  }
+}
+
+/* Keyframes for custom animations */
+@keyframes float {
+  0% { transform: translateY(0px); }
+  50% { transform: translateY(-10px); }
+  100% { transform: translateY(0px); }
+}
+
+@keyframes shine {
+  0% { background-position: -100%; }
+  100% { background-position: 200%; }
+}
+
+@layer utilities {
+  .animate-float {
+    animation: float 3s ease-in-out infinite;
+  }
+
+  .animate-shine {
+    background: linear-gradient(90deg, transparent, rgba(255,255,255,0.2), transparent);
+    background-size: 200% 100%;
+    animation: shine 2s infinite;
+  }
 }
 
 /* Add Google Font */
