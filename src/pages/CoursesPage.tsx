@@ -20,9 +20,10 @@ import {
   AccordionTrigger,
 } from "@/components/ui/accordion";
 import { Search, SlidersHorizontal, X } from "lucide-react";
+import { CourseProps } from "@/components/courses/CourseCard";
 
 // Sample course data - in a real app, this would come from an API
-const allCourses = [
+const allCourses: CourseProps[] = [
   {
     id: "1",
     title: "Complete Web Development Bootcamp 2023",

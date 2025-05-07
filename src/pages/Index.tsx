@@ -6,9 +6,10 @@ import FeaturesSection from "@/components/home/FeaturesSection";
 import TestimonialSection from "@/components/home/TestimonialSection";
 import CTASection from "@/components/home/CTASection";
 import CourseList from "@/components/courses/CourseList";
+import { CourseProps } from "@/components/courses/CourseCard";
 
 // Sample course data - in a real app, this would come from an API
-const featuredCourses = [
+const featuredCourses: CourseProps[] = [
   {
     id: "1",
     title: "Complete Web Development Bootcamp 2023",
